@@ -71,7 +71,7 @@ h4{
 
 
 /* header */
-.header{
+header{
 	background: #AA0601;
 	padding-top: 16px;
 	padding-bottom: 15.43px;
@@ -86,7 +86,7 @@ h4{
 	max-width: 1324px;
 	margin: 0 auto;	
 }
-.container-QA{
+main{
 	padding-top: 80px;
 	padding-bottom: 48px;
 }
@@ -97,7 +97,7 @@ h4{
 
 
 /* footer */
-.footer{
+footer{
 	background: #AA0601;
 }
 .footer-nav{
@@ -140,12 +140,10 @@ h4{
 	}
 	.container{
 		max-width: 100%;
-		padding-left: 0px;
-		padding-right: 0px;
+		padding: 0 12px;
 	}
-	.QA-RWD-PdLR-12{
-		padding-left: 12px;
-		padding-right: 12px;
+	.gap-48{
+		gap: 42px;
 	}
 	.nav{
 		gap: 0;
@@ -169,6 +167,11 @@ h4{
 	.pd-top{
 		padding: 24px 0;
 	}
+	.rwd-flex-rr-spacebetween{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
 	.footer-pd-buttom{
 		flex-direction: column;
 		gap: 8px;
@@ -177,7 +180,7 @@ h4{
 		flex-direction: column;
 		gap: 0;
 	}
-	.left-cards p{
+	.pd-top p{
 		font-size: 16px;
 	}
 	.sns-btns{
